@@ -1,0 +1,22 @@
+.welcome-container::after, .welcome-container::before {
+    content: '';
+    position: absolute;
+    height: 63%;
+    width: 47%;
+    top: 53.5%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+}
+.welcome-container {
+    width: 100%;
+    max-width: 400px; /* Set a max-width for the card */
+    padding: 20px; /* Add padding inside the card */
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    text-align: center; /* Center text inside the card */
+}
